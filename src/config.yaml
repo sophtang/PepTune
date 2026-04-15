@@ -5,7 +5,7 @@ noise:
   state_dependent: True
 
 base_path: /path/to/your/home/PepTune
-mode: ppl_eval  # train / ppl_eval / sample_eval
+mode: train  # train / ppl_eval / sample_eval
 diffusion: absorbing_state
 vocab: old_smiles # old_smiles / new_smiles / selfies / helm
 backbone: roformer  # peptideclm / helmgpt / dit / roformer / finetune_roformer
@@ -48,7 +48,7 @@ sampling:
   num_sequences: 100
   sampling_eps: 1e-3
   steps: 128
-  seq_length: 100
+  seq_length: 200
   noise_removal: True
   num_sample_batches: 2  # Total samples: `num_gpus` * `loader.eval_batch_size` * num_sample_batches
   num_sample_log: 2
@@ -161,4 +161,4 @@ callbacks:
     monitor: "val/nll"
     save_top_k: 10
     mode: "min"
-    dirpath: './checkpoints/11M-old-tokenizer'
+    dirpath: './checkpoints/'

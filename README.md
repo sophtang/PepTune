@@ -145,7 +145,7 @@ PepTune jointly optimizes across five therapeutic properties via the integrated 
 | `nonfouling` | Non-fouling | SMILES binary classifier |
 | `permeability` | Cell membrane permeability | PAMPA CNN |
 
-### Key MCTS Parameters
+### Default MCTS Hyperparameters
 
 These can be overridden via Hydra config overrides:
 
@@ -153,13 +153,9 @@ These can be overridden via Hydra config overrides:
 |-----------|---------|-------------|
 | `mcts.num_children` | 50 | Branching factor per MCTS node |
 | `mcts.num_iter` | 128 | Number of MCTS iterations |
-| `mcts.topk` | 100 | Top-k sequences to retain |
 | `mcts.num_objectives` | 5 | Number of optimization objectives |
-| `mcts.sampling` | 0 | Sampling strategy (0=Gumbel, >0=top-k) |
-| `mcts.invalid_penalty` | 0.5 | Penalty for invalid peptides |
-| `mcts.perm` | True | Permutation denoising mode |
 | `sampling.steps` | 128 | Diffusion denoising steps |
-| `sampling.seq_length` | 100 | Generated peptide length |
+| `sampling.seq_length` | 200 | Generated peptide length |
 
 ## Unconditional Generation
 
