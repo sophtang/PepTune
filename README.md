@@ -1,8 +1,6 @@
-# [PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion](https://arxiv.org/abs/2412.17780) 🧬🔮 [ICML 2025]
+# [PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion](https://arxiv.org/abs/2412.17780) 🧬🔮 (ICML 2025)
 
-
-
-[**Sophia Tang**](https://sophtang.github.io/)\*, [**Yinuo Zhang**]()\* and [**Pranam Chatterjee**](https://www.chatterjeelab.com/)
+[**Sophia Tang**](https://sophtang.github.io/)\*, [**Yinuo Zhang**](https://www.linkedin.com/in/yinuozhang98/)\* and [**Pranam Chatterjee**](https://www.chatterjeelab.com/)
 
 ![PepTune](assets/poster.png)
 
@@ -27,7 +25,7 @@ Follow the steps below to download the model weights required for this experimen
 
 ## Training Data Download
 
-Download the peptide training dataset from _ and unzip it into the `data/` directory:
+Download the peptide training dataset from https://drive.google.com/file/d/1yCDr641WVjCtECg3nbG0nsMNu8j7d7gp/view?usp=drive_link and unzip it into the `data/` directory:
 
 ```bash
 # Download peptide_data.zip into the data/ directory
