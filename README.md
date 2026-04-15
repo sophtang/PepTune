@@ -190,4 +190,4 @@ If you find this repository helpful for your publications, please consider citin
 
 ## License
 
-To use this repository, you agree to abide by the MIT License.
+To use this repository, you agree to abide by the Apache 2.0 License.
